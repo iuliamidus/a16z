@@ -1,0 +1,494 @@
+﻿Company Name;Category;Metric;Value;Notes
+Applied Intuition;YouTube;company_name;Applied Intuition;Channel: @AppliedIntuitionInc youtube​
+Applied Intuition;YouTube;subscriber_count;~12K;AV tech demos
+Applied Intuition;YouTube;video_count;45;Simulation, testing videos
+Applied Intuition;YouTube;videos_per_week;~0.5;Technical updates
+Applied Intuition;YouTube;avg_views_per_video;~8K;nan
+Applied Intuition;YouTube;latest_video_date;2025-12-01 00:00:00;Series F announcement
+Applied Intuition;YouTube;latest_video_title;"""Edge Case Simulation for AV Deployment""";nan
+Applied Intuition;YouTube;top_videos;"""Wheelchair + Duck Scenario"" (viral edge case) axios​";nan
+Applied Intuition;Instagram;follower_count;~25K;@appliedintuition
+Applied Intuition;Instagram;posts_per_week;~2;1.8% ER
+Applied Intuition;Instagram;avg_engagement_per_post;~450;AV clips
+Applied Intuition;Instagram;latest_post_date;2025-12-20 00:00:00;Kleiner Perkins round
+Applied Intuition;X/Twitter;handle;@AppliedInt;Accelerating the global adoption of safe, AI-driven machines
+Applied Intuition;X/Twitter;follower_count;3577;Live count Dec 2025
+Applied Intuition;X/Twitter;following_count;218;Dec 2025
+Applied Intuition;X/Twitter;location;Mountain View, CA;nan
+Applied Intuition;X/Twitter;joined_date;August 2017;nan
+Applied Intuition;X/Twitter;posts_per_week;~4;2.5% ER
+Applied Intuition;X/Twitter;latest_post_date;2025-12-18 00:00:00;"""$600M Series F"""
+Applied Intuition;X/Twitter;top_posts;Valuation jump, Porsche partnership;nan
+Applied Intuition;LinkedIn;company_name;Applied Intuition Inc.;[LinkedIn provided]
+Applied Intuition;LinkedIn;employee_count;1041;#ERROR!
+Applied Intuition;LinkedIn;posts_per_week;~2;AV hiring, tech updates
+Applied Intuition;LinkedIn;latest_post_date;2025-06-01 00:00:00;$15B valuation
+Applied Intuition;LinkedIn;top_posts;Series F, BlackRock/Kleiner Perkins;nan
+Applied Intuition;News;mention_count_7days;0;Dec 18-25 scan
+Applied Intuition;News;latest_mention_date;2025-06-17 00:00:00;Bloomberg $15B val bloomberg​
+Applied Intuition;News;latest_mention_title;Applied Intuition Hits $15 Billion Valuation;Bloomberg bloomberg​
+Applied Intuition;News;latest_mention_source;Bloomberg;bloomberg​
+Applied Intuition;News;top_articles;$600M Series F ($15B val, Jun), Porsche investment bloomberg+1​;nan
+Applied Intuition;Funding;total_funding_usd;$1.5B+;Cumulative growjo​
+Applied Intuition;Funding;last_funding_type;Series F;$600M ($200M primary + $400M secondary) axios​
+Applied Intuition;Funding;last_funding_date;2025-06-01 00:00:00;BlackRock/Kleiner Perkins-led bloomberg​
+Applied Intuition;Funding;funding_rounds;6+;From $6B → $15B valuation reuters​
+Applied Intuition;Funding;employee_count;1041;growjo​
+Applied Intuition;Website Metrics;monthly_visits;nan;Enterprise AV sales
+Applied Intuition;Website Metrics;revenue_est;$208.2M;2024 growjo​
+Applied Intuition;Website Metrics;valuation;$15B;Post-Series F Jun 2025 bloomberg​
+Applied Intuition;Other;industries;AV, drones, defense;IPO prep bloomberg​
+Applied Intuition;Other;competitors;Waymo, Tesla FSD;Edge case simulation leader axios​
+Ambience;YouTube;company_name;Ambience;Channel: @AmbienceHealthcare youtube
+Ambience;YouTube;subscriber_count;15;Healthcare B2B focus
+Ambience;YouTube;video_count;24;Requires manual check
+Ambience;YouTube;videos_per_week;0;nan
+Ambience;YouTube;avg_views_per_video;51;nan
+Ambience;YouTube;latest_video_date;2025-11-03;nan
+Ambience;YouTube;latest_video_title;"""Conditions Advisor - Ambience""";nan
+Ambience;YouTube;top_videos;"""Ambience Series C""";nan
+Ambience;Instagram;follower_count;47;Enterprise healthcare, minimal consumer presence
+Ambience;Instagram;posts_per_week;0;nan
+Ambience;Instagram;avg_engagement_per_post;0;nan
+Ambience;Instagram;latest_post_date;nan;nan
+Ambience;X/Twitter;handle;@AmbienceAI;Healthcare AI focus
+Ambience;X/Twitter;follower_count;nan;Requires manual check
+Ambience;X/Twitter;posts_per_week;~0.5;Est. clinical updates
+Ambience;LinkedIn;company_name;Ambience;[LinkedIn provided]
+Ambience;LinkedIn;collection_date;2025-12-25 00:00:00;nan
+Ambience;LinkedIn;timestamp;2025-12-25T20:03:00Z;nan
+Ambience;LinkedIn;follower_count;30K;Requires API access
+Ambience;LinkedIn;employee_count;11-50;Early scaling zoominfo​
+Ambience;LinkedIn;posts_per_week;~1;Series C, Epic integration ambiencehealthcare​
+Ambience;LinkedIn;total_engagement_7days;nan;No public data
+Ambience;LinkedIn;avg_engagement_per_post;nan;No public data
+Ambience;LinkedIn;engagement_rate;nan;No public data
+Ambience;LinkedIn;latest_post_date;2025-07-01 00:00:00;$243M Series C ambiencehealthcare​
+Ambience;LinkedIn;top_posts;Funding, clinician testimonials (80% utilization, 45% less charting) ambiencehealthcare​;nan
+Ambience;News;company_name;Ambience;nan
+Ambience;News;collection_date;2025-12-25 00:00:00;nan
+Ambience;News;timestamp;2025-12-25T20:03:00Z;nan
+Ambience;News;mention_count_7days;0;Dec 18-25 scan
+Ambience;News;unique_sources;0 (last 7d);nan
+Ambience;News;latest_mention_date;2025-07-29 00:00:00;STAT News $243M round statnews​
+Ambience;News;latest_mention_title;Ambience mega-round pushes AI scribe fundraises to new highs;STAT statnews​
+Ambience;News;latest_mention_source;STAT News;statnews​
+Ambience;News;top_articles;$243M Series C ($1.25B val, Jul), Cleveland Clinic rollout (Feb) statnews+1​;nan
+Ambience;Funding;company_name;Ambience;nan
+Ambience;Funding;collection_date;2025-12-25 00:00:00;nan
+Ambience;Funding;timestamp;2025-12-25T20:03:00Z;nan
+Ambience;Funding;total_funding_usd;$345M;Cumulative statnews​
+Ambience;Funding;last_funding_type;Series C;$243M ambiencehealthcare​
+Ambience;Funding;last_funding_date;2025-07-01 00:00:00;Oak HC/FT + a16z-led statnews​
+Ambience;Funding;funding_rounds;3+;Seed→C (a16z, OpenAI Fund, Kleiner Perkins) beckershospitalreview​
+Ambience;Funding;employee_count;11-50;zoominfo​
+Ambience;Website Metrics;monthly_visits;nan;Enterprise sales focus
+Ambience;Website Metrics;specialties_supported;200+;Oncology, psychiatry, cardiology etc. ambiencehealthcare​
+Ambience;Performance;clinician_utilization;0.8;Double competitors ambiencehealthcare​
+Ambience;Performance;charting_time_reduction;0.45;Less after-hours work ambiencehealthcare​
+Ambience;Performance;revenue_per_clinician;$13K/year;St. Luke's verified ambiencehealthcare​
+Ambience;Performance;coding_accuracy;93% ICD-10;Across specialties ambiencehealthcare​
+Ambience;Performance;valuation;$1.25B;Post-Series C statnews​
+Cluely AI;YouTube;company_name;Cluely AI;Channel: UC0icYK7vhQxoG20U0PRDivg socialcounts​
+Cluely AI;YouTube;collection_date;2025-12-21 00:00:00;nan
+Cluely AI;YouTube;timestamp;2025-12-21T19:37:00Z;nan
+Cluely AI;YouTube;subscriber_count;9200;Live count socialcounts​
+Cluely AI;YouTube;video_count;29;Total uploads socialcounts​
+Cluely AI;YouTube;videos_per_week;~0.2;Over ~150 weeks socialcounts​
+Cluely AI;YouTube;avg_views_per_video;~20,512;594,757 total views ÷ 29 socialcounts​
+Cluely AI;YouTube;latest_video_date;2025-09-01 00:00:00;"""This AI Unlocks Any Website's Data"" youtube​"
+Cluely AI;YouTube;latest_video_title;This AI (Cluely) Unlocks Any Website's Data;youtube​
+Cluely AI;YouTube;top_videos;"""Viral AI Startup $15M"" (Jun), ""Undetectable AI"" (Sep)";High engagement noted youtube+1​
+Cluely AI;LinkedIn;company_name;Cluely AI;nan
+Cluely AI;LinkedIn;collection_date;2025-12-21 00:00:00;nan
+Cluely AI;LinkedIn;timestamp;2025-12-21T19:37:00Z;nan
+Cluely AI;LinkedIn;follower_count;36K;"Requires API; no public aggregate clay​"
+Cluely AI;LinkedIn;employee_count;98;Latest report startup-seeker​
+Cluely AI;LinkedIn;posts_per_week;~0.5;Estimated from recent activity linkedin​
+Cluely AI;LinkedIn;total_engagement_7days;nan;No public data
+Cluely AI;LinkedIn;avg_engagement_per_post;nan;No public data
+Cluely AI;LinkedIn;engagement_rate;nan;No public data
+Cluely AI;LinkedIn;latest_post_date;2025-11-01 00:00:00;Traffic drop discussion linkedin​
+Cluely AI;LinkedIn;top_posts;$15M raise (Jun), marketing strategy (Oct);linkedin+1​
+Cluely AI;News;company_name;Cluely AI;nan
+Cluely AI;News;collection_date;2025-12-21 00:00:00;nan
+Cluely AI;News;timestamp;2025-12-21T19:37:00Z;nan
+Cluely AI;News;mention_count_7days;0;Dec 14-21 startup-seeker​
+Cluely AI;News;unique_sources;0 (last 7d);nan
+Cluely AI;News;latest_mention_date;2025-12-16 00:00:00;nan
+Cluely AI;News;latest_mention_title;In The Loop Ep13: Cluely AI Cheating Viral;Mindset.ai mindset​
+Cluely AI;News;latest_mention_source;Mindset.ai;mindset​
+Cluely AI;News;top_articles;$15M a16z (Jun, Sourcery), $7M ARR (Jul, AIBase);sourcery+1​
+Cluely AI;Funding;company_name;Cluely AI;nan
+Cluely AI;Funding;collection_date;2025-12-21 00:00:00;nan
+Cluely AI;Funding;timestamp;2025-12-21T19:37:00Z;nan
+Cluely AI;Funding;total_funding_usd;$20.3M;startup-seeker​
+Cluely AI;Funding;last_funding_type;Series A;$15M sourcery+1​
+Cluely AI;Funding;last_funding_date;2025-06-01 00:00:00;a16z-led sourcery​
+Cluely AI;Funding;funding_rounds;2;Seed $5.3M (Apr), Series A $15M (Jun) startup-seeker​
+Cluely AI;Funding;employee_count;98;startup-seeker​
+Cluely AI;Metric;Value;Source/Period;nan
+Cluely AI;Total YouTube Views;594757;Lifetime socialcounts​;nan
+Cluely AI;Website Traffic (cluely.com);1.2M visits/mo (Nov 2025);Down 50% recently semrush+1​;nan
+Cluely AI;Annual Recurring Revenue;$7M;Jul 2025 news.aibase​;nan
+Cluely AI;Content Views Generated;1B+;AI strategy impact videotoolkit​;nan
+OpenRouter;YouTube;company_name;OpenRouter AI;Channel: @OpenRouterAI (UCXZCJLdBC09xxGZ6gcdrc6A or UC9dJwjRL5rHn-2t-rHlwNpg) youtube+1​
+OpenRouter;YouTube;collection_date;2025-12-21 00:00:00;nan
+OpenRouter;YouTube;timestamp;2025-12-21T21:02:00Z;nan
+OpenRouter;YouTube;subscriber_count;852;Live count youtube​
+OpenRouter;YouTube;video_count;10;Total uploads youtube​
+OpenRouter;YouTube;videos_per_week;~0.1;Low frequency youtube​
+OpenRouter;YouTube;avg_views_per_video;~5,000;Estimated from channel activity youtube​
+OpenRouter;YouTube;latest_video_date;2025-12-01 00:00:00;Announcement-style (e.g., State of AI) openrouter​
+OpenRouter;YouTube;latest_video_title;2025 State of AI Report;Partnership with a16z openrouter​
+OpenRouter;YouTube;top_videos;Model announcements, API demos;Low but steady youtube​
+OpenRouter;LinkedIn;company_name;OpenRouter AI;nan
+OpenRouter;LinkedIn;collection_date;2025-12-21 00:00:00;nan
+OpenRouter;LinkedIn;timestamp;2025-12-21T21:02:00Z;nan
+OpenRouter;LinkedIn;follower_count;8K;Requires API clay​
+OpenRouter;LinkedIn;employee_count;~30-35;Early-stage infra team est. library​
+OpenRouter;LinkedIn;posts_per_week;~0.5;Technical updates openrouter​
+OpenRouter;LinkedIn;total_engagement_7days;nan;No public data
+OpenRouter;LinkedIn;avg_engagement_per_post;nan;No public data
+OpenRouter;LinkedIn;engagement_rate;nan;No public data
+OpenRouter;LinkedIn;latest_post_date;2025-12-18 00:00:00;Response Healing announcement openrouter​
+OpenRouter;LinkedIn;top_posts;State of AI report, token stats openrouter​;nan
+OpenRouter;News;company_name;OpenRouter AI;nan
+OpenRouter;News;collection_date;2025-12-21 00:00:00;nan
+OpenRouter;News;timestamp;2025-12-21T21:02:00Z;nan
+OpenRouter;News;mention_count_7days;0;Dec 14-21 scan
+OpenRouter;News;unique_sources;0 (last 7d);nan
+OpenRouter;News;latest_mention_date;2025-12-17 00:00:00;State of AI report openrouter​
+OpenRouter;News;latest_mention_title;The 2025 State of AI Report;OpenRouter site openrouter​
+OpenRouter;News;latest_mention_source;openrouter.ai;openrouter​
+OpenRouter;News;top_articles;2025 Wrapped stats, a16z partnership openrouter​;nan
+OpenRouter;Funding;company_name;OpenRouter AI;nan
+OpenRouter;Funding;collection_date;2025-12-21 00:00:00;nan
+OpenRouter;Funding;timestamp;2025-12-21T21:02:00Z;nan
+OpenRouter;Funding;total_funding_usd;$10-20M;a16z seed est. library​
+OpenRouter;Funding;last_funding_type;Seed;a16z-led
+OpenRouter;Funding;last_funding_date;Early 2025;Portfolio timing library​
+OpenRouter;Funding;funding_rounds;1;Early stage library​
+OpenRouter;Funding;employee_count;~20-30;Infra-focused
+OpenRouter;Metric;Value;Source/Period;nan
+OpenRouter;Total YouTube Views;594757;Lifetime socialcounts​;nan
+OpenRouter;Website Traffic (cluely.com);1.2M visits/mo (Nov 2025);Down 50% recently semrush+1​;nan
+OpenRouter;Annual Recurring Revenue;$7M;Jul 2025 news.aibase​;nan
+OpenRouter;Content Views Generated;1B+;AI strategy impact videotoolkit​;nan
+Thinking Machines;YouTube;company_name;Thinking Machines;"No dedicated channel found; coverage via interviews/podcasts youtube+1​"
+Thinking Machines;YouTube;collection_date;2025-12-21 00:00:00;nan
+Thinking Machines;YouTube;timestamp;2025-12-21T21:05:00Z;nan
+Thinking Machines;YouTube;subscriber_count;0;Pre-launch, no official presence thinkingmachines​
+Thinking Machines;YouTube;video_count;0;nan
+Thinking Machines;YouTube;videos_per_week;0;nan
+Thinking Machines;YouTube;avg_views_per_video;nan;nan
+Thinking Machines;YouTube;latest_video_date;nan;nan
+Thinking Machines;YouTube;latest_video_title;nan;nan
+Thinking Machines;YouTube;top_videos;nan;nan
+Thinking Machines;LinkedIn;company_name;Thinking Machines;nan
+Thinking Machines;LinkedIn;collection_date;2025-12-21 00:00:00;nan
+Thinking Machines;LinkedIn;timestamp;2025-12-21T21:05:00Z;nan
+Thinking Machines;LinkedIn;follower_count;~14K;Early stage, hiring focus techcrunch​
+Thinking Machines;LinkedIn;employee_count;~50;Ex-OpenAI talent est. techcrunch​
+Thinking Machines;LinkedIn;posts_per_week;~0.2;Recruitment updates thinkingmachines​
+Thinking Machines;LinkedIn;total_engagement_7days;nan;No public data
+Thinking Machines;LinkedIn;avg_engagement_per_post;nan;No public data
+Thinking Machines;LinkedIn;engagement_rate;nan;No public data
+Thinking Machines;LinkedIn;latest_post_date;2025-12-01 00:00:00;Tinker product hints youtube​
+Thinking Machines;LinkedIn;top_posts;$2B funding (Jul), Mira Murati hiring reuters​;nan
+Thinking Machines;News;company_name;Thinking Machines;nan
+Thinking Machines;News;collection_date;2025-12-21 00:00:00;nan
+Thinking Machines;News;timestamp;2025-12-21T21:05:00Z;nan
+Thinking Machines;News;mention_count_7days;0;Dec 14-21 scan
+Thinking Machines;News;unique_sources;0 (last 7d);nan
+Thinking Machines;News;latest_mention_date;2025-10-01 00:00:00;Tinker launch coverage youtube​
+Thinking Machines;News;latest_mention_title;Mira Murati's Thinking Machines Launches Tinker;YouTube youtube​
+Thinking Machines;News;latest_mention_source;YouTube channels;youtube​
+Thinking Machines;News;top_articles;$2B seed at $12B val (Jul, Reuters/TechCrunch) reuters+1​;nan
+Thinking Machines;Funding;company_name;Thinking Machines;nan
+Thinking Machines;Funding;collection_date;2025-12-21 00:00:00;nan
+Thinking Machines;Funding;timestamp;2025-12-21T21:05:00Z;nan
+Thinking Machines;Funding;total_funding_usd;$2B;a16z-led seed reuters​
+Thinking Machines;Funding;last_funding_type;Seed;$2B techcrunch​
+Thinking Machines;Funding;last_funding_date;2025-07-01 00:00:00;$12B valuation reuters​
+Thinking Machines;Funding;funding_rounds;1;Mira Murati founded Feb 2025 techcrunch​
+Thinking Machines;Funding;employee_count;~50;Building frontier models techcrunch​
+Thinking Machines;Metric;Value;Source/Period;nan
+Thinking Machines;Valuation;$12B;Post-seed Jul 2025 reuters​;nan
+Thinking Machines;Investors;a16z, Nvidia, Accel;AI chip partnerships reuters​;nan
+Hippocratic AI;YouTube;company_name;Hippocratic AI;"No dedicated channel; coverage via industry news techstartups​"
+Hippocratic AI;YouTube;collection_date;2025-12-21 00:00:00;nan
+Hippocratic AI;YouTube;timestamp;2025-12-21T21:05:00Z;nan
+Hippocratic AI;YouTube;subscriber_count;59;Healthcare focus, minimal consumer video techstartups​
+Hippocratic AI;YouTube;video_count;14;nan
+Hippocratic AI;YouTube;videos_per_week;0;nan
+Hippocratic AI;YouTube;avg_views_per_video;100;nan
+Hippocratic AI;YouTube;latest_video_date;2025-06-14;nan
+Hippocratic AI;YouTube;latest_video_title;"""Hippocratic AI on Conversation at Scale: Why Healthcare Needs Dialog-Native Models""";nan
+Hippocratic AI;YouTube;top_videos;"""Hippocratic AI’s Vision for Super Staffing: The Generative AI Healthcare Agent Revolution""";nan
+Hippocratic AI;LinkedIn;company_name;Hippocratic AI;nan
+Hippocratic AI;LinkedIn;collection_date;2025-12-21 00:00:00;nan
+Hippocratic AI;LinkedIn;timestamp;2025-12-21T21:05:00Z;nan
+Hippocratic AI;LinkedIn;follower_count;45K;Enterprise B2B focus businesswire​
+Hippocratic AI;LinkedIn;employee_count;~150;Scaling post-Series C techstartups​
+Hippocratic AI;LinkedIn;posts_per_week;~0.3;Clinical safety updates businesswire​
+Hippocratic AI;LinkedIn;total_engagement_7days;nan;No public data
+Hippocratic AI;LinkedIn;avg_engagement_per_post;nan;No public data
+Hippocratic AI;LinkedIn;engagement_rate;nan;No public data
+Hippocratic AI;LinkedIn;latest_post_date;2025-11-01 00:00:00;Series C announcement techstartups​
+Hippocratic AI;LinkedIn;top_posts;$126M raise, AI agent store fiercehealthcare​;nan
+Hippocratic AI;News;company_name;Hippocratic AI;nan
+Hippocratic AI;News;collection_date;2025-12-21 00:00:00;nan
+Hippocratic AI;News;timestamp;2025-12-21T21:05:00Z;nan
+Hippocratic AI;News;mention_count_7days;0;Dec 14-21 scan
+Hippocratic AI;News;unique_sources;0 (last 7d);nan
+Hippocratic AI;News;latest_mention_date;2025-11-03 00:00:00;Reuters valuation coverage reuters​
+Hippocratic AI;News;latest_mention_title;Hippocratic AI valued at $3.5 billion;Reuters reuters​
+Hippocratic AI;News;latest_mention_source;Reuters;reuters​
+Hippocratic AI;News;top_articles;$126M Series C ($3.5B val, Nov), $141M Series B (Jan) techstartups+1​;nan
+Hippocratic AI;Funding;company_name;Hippocratic AI;nan
+Hippocratic AI;Funding;collection_date;2025-12-21 00:00:00;nan
+Hippocratic AI;Funding;timestamp;2025-12-21T21:05:00Z;nan
+Hippocratic AI;Funding;total_funding_usd;$404M;All rounds techstartups​
+Hippocratic AI;Funding;last_funding_type;Series C;$126M techstartups​
+Hippocratic AI;Funding;last_funding_date;2025-11-01 00:00:00;Avenir Growth-led, $3.5B val techstartups​
+Hippocratic AI;Funding;funding_rounds;4;Seed, A ($53M+$17M), B ($141M), C texau​
+Hippocratic AI;Funding;employee_count;~150;Healthcare AI scaling techstartups​
+Hippocratic AI;Metric;Value;Source/Period;nan
+Hippocratic AI;Valuation;$3.5B;Post-Series C Nov 2025 techstartups​;nan
+Hippocratic AI;Total Raised;$404M;Cumulative techstartups​;nan
+Hippocratic AI;Investors;a16z, Kleiner Perkins, General Catalyst, Nvidia;Strategic healthcare businesswire​;nan
+Hedra AI;YouTube;company_name;Hedra AI;"No dedicated channel; viral via creator clips (e.g., talking baby podcasts) businessinsider​"
+Hedra AI;YouTube;collection_date;2025-12-21 00:00:00;nan
+Hedra AI;YouTube;timestamp;2025-12-21T21:06:00Z;nan
+Hedra AI;YouTube;subscriber_count;0;Creator-tool focus, indirect coverage techcrunch​
+Hedra AI;YouTube;video_count;0;nan
+Hedra AI;YouTube;videos_per_week;0;nan
+Hedra AI;YouTube;avg_views_per_video;nan;nan
+Hedra AI;YouTube;latest_video_date;nan;nan
+Hedra AI;YouTube;latest_video_title;nan;nan
+Hedra AI;YouTube;top_videos;nan;nan
+Hedra AI;LinkedIn;company_name;Hedra AI;nan
+Hedra AI;LinkedIn;collection_date;2025-12-21 00:00:00;nan
+Hedra AI;LinkedIn;timestamp;2025-12-21T21:06:00Z;nan
+Hedra AI;LinkedIn;follower_count;17K;Marketing/creator updates golden​
+Hedra AI;LinkedIn;employee_count;~20 (growing to 60);Post-Series A hiring cartoonbrew​
+Hedra AI;LinkedIn;posts_per_week;~0.4;Character-3 model launches golden​
+Hedra AI;LinkedIn;total_engagement_7days;nan;No public data
+Hedra AI;LinkedIn;avg_engagement_per_post;nan;No public data
+Hedra AI;LinkedIn;engagement_rate;nan;No public data
+Hedra AI;LinkedIn;latest_post_date;2025-05-01 00:00:00;Series A announcement golden​
+Hedra AI;LinkedIn;top_posts;$32M raise, Character-3 model businessinsider​;nan
+Hedra AI;News;company_name;Hedra AI;nan
+Hedra AI;News;collection_date;2025-12-21 00:00:00;nan
+Hedra AI;News;timestamp;2025-12-21T21:06:00Z;nan
+Hedra AI;News;mention_count_7days;0;Dec 14-21 scan
+Hedra AI;News;unique_sources;0 (last 7d);nan
+Hedra AI;News;latest_mention_date;2025-05-15 00:00:00;TechCrunch/BI coverage businessinsider+1​
+Hedra AI;News;latest_mention_title;Hedra Raises $32M from a16z for AI Video;TechCrunch techcrunch​
+Hedra AI;News;latest_mention_source;TechCrunch;techcrunch​
+Hedra AI;News;top_articles;$32M Series A ($200M val, May), viral baby podcasts golden+1​;nan
+Hedra AI;Funding;company_name;Hedra AI;nan
+Hedra AI;Funding;collection_date;2025-12-21 00:00:00;nan
+Hedra AI;Funding;timestamp;2025-12-21T21:06:00Z;nan
+Hedra AI;Funding;total_funding_usd;$44M;All rounds golden​
+Hedra AI;Funding;last_funding_type;Series A;$32M businessinsider​
+Hedra AI;Funding;last_funding_date;2025-05-01 00:00:00;a16z Infra-led, $200M val golden​
+Hedra AI;Funding;funding_rounds;2+;Seed $10M+ (2024), Series A businessinsider​
+Hedra AI;Funding;employee_count;~20-60;Tripling headcount planned cartoonbrew​
+Hedra AI;Metric;Value;Source/Period;nan
+Hedra AI;Valuation;$200M;Post-Series A May 2025 golden​;nan
+Hedra AI;Users;3M+;Platform reach cooley​;nan
+Hedra AI;Investors;a16z Infra/Speedrun, Abstract, Index, Alexa Fund;Video AI focus golden​;nan
+Cursor;YouTube;company_name;Cursor AI;Channel: @cursor_ai youtube​
+Cursor;YouTube;collection_date;2025-12-21 00:00:00;nan
+Cursor;YouTube;timestamp;2025-12-21T21:25:00Z;nan
+Cursor;YouTube;subscriber_count;~15K;Dev tool demos, tutorials youtube​
+Cursor;YouTube;video_count;18;Product updates, coding walkthroughs
+Cursor;YouTube;videos_per_week;~0.8;Consistent dev content
+Cursor;YouTube;avg_views_per_video;~45K;High engagement from devs youtube​
+Cursor;YouTube;latest_video_date;2025-12-01 00:00:00;Composer AI model demo
+Cursor;YouTube;latest_video_title;Cursor Composer: Build Faster with AI Agents;nan
+Cursor;YouTube;top_videos;"""Master Cursor in 50 Minutes"" (Aug, 250K+ views), ""$500M ARR Breakdown"" youtube+1​";nan
+Cursor;LinkedIn;company_name;Cursor AI;nan
+Cursor;LinkedIn;collection_date;2025-12-21 00:00:00;nan
+Cursor;LinkedIn;timestamp;2025-12-21T21:25:00Z;nan
+Cursor;LinkedIn;follower_count;165K;Developer community heavy
+Cursor;LinkedIn;employee_count;300+;Post-Series D scaling cnbc​
+Cursor;LinkedIn;posts_per_week;~1;Composer model updates techcrunch​
+Cursor;LinkedIn;total_engagement_7days;nan;No public data
+Cursor;LinkedIn;avg_engagement_per_post;nan;No public data
+Cursor;LinkedIn;engagement_rate;nan;No public data
+Cursor;LinkedIn;latest_post_date;2025-11-01 00:00:00;Series D announcement cursor​
+Cursor;LinkedIn;top_posts;$2.3B raise, ARR milestones cnbc​;nan
+Cursor;News;company_name;Cursor AI;nan
+Cursor;News;collection_date;2025-12-21 00:00:00;nan
+Cursor;News;timestamp;2025-12-21T21:25:00Z;nan
+Cursor;News;mention_count_7days;0;Dec 14-21 scan
+Cursor;News;unique_sources;0 (last 7d);nan
+Cursor;News;latest_mention_date;2025-11-13 00:00:00;CNBC $2.3B round cnbc​
+Cursor;News;latest_mention_title;Cursor raises $2.3B at $29.3B valuation;CNBC cnbc​
+Cursor;News;latest_mention_source;CNBC;cnbc​
+Cursor;News;top_articles;$2.3B Series D (Nov), $900M Series C (Jun) cnbc+1​;nan
+Cursor;Funding;company_name;Cursor AI;nan
+Cursor;Funding;collection_date;2025-12-21 00:00:00;nan
+Cursor;Funding;timestamp;2025-12-21T21:25:00Z;nan
+Cursor;Funding;total_funding_usd;$3.38B;Cumulative sacra​
+Cursor;Funding;last_funding_type;Series D;$2.3B cnbc​
+Cursor;Funding;last_funding_date;2025-11-01 00:00:00;$29.3B val cnbc​
+Cursor;Funding;funding_rounds;5;Seed→D sacra​
+Cursor;Funding;employee_count;300+;$1B+ ARR cnbc​
+Cursor;Metric;Value;Source/Period;nan
+Cursor;Valuation;$29.3B;Post-Series D Nov 2025 cnbc​;nan
+Cursor;ARR;$500M+;2025 est. sacra​;nan
+Cursor;Users;1M+;360K paying taptwicedigital​;nan
+Cursor;Investors;Thrive, a16z, Accel, DST, Nvidia, Google;Dev AI leaders cnbc​;nan
+EarnBetter;YouTube;company_name;EarnBetter;@EarnBetterHQ youtube​
+EarnBetter;YouTube;subscriber_count;~45K;Job AI focus
+EarnBetter;YouTube;video_count;52;Career tips, interviews
+EarnBetter;YouTube;videos_per_week;~2;High frequency
+EarnBetter;YouTube;avg_views_per_video;~12K;nan
+EarnBetter;YouTube;latest_video_date;2025-12-01 00:00:00;"""AI Job Hunt 2026"""
+EarnBetter;Instagram;company_name;EarnBetter;@earnbetterhq
+EarnBetter;Instagram;follower_count;~28K;Career/job content
+EarnBetter;Instagram;posts_per_week;~5;Reels heavy
+EarnBetter;Instagram;avg_engagement_per_post;~450 likes;Est. 1.6% rate
+EarnBetter;Instagram;latest_post_date;2025-12-20 00:00:00;Resume AI tips
+EarnBetter;LinkedIn;follower_count;nan;B2C job platform
+EarnBetter;LinkedIn;employee_count;~80;nan
+EarnBetter;News;mention_count_7days;0;nan
+EarnBetter;News;latest_mention_date;2025-12-01 00:00:00;Job market coverage
+EarnBetter;Funding;total_funding_usd;$75M;a16z Series B library​
+EarnBetter;Funding;last_funding_date;2025-10-01 00:00:00;$3B val est.
+ElevenLabs;YouTube;company_name;ElevenLabs;Channel: @elevenlabsio (UC-ew9TfeD887qUSiWWAAj1w) youtube​
+ElevenLabs;YouTube;collection_date;2025-12-21 00:00:00;nan
+ElevenLabs;YouTube;timestamp;2025-12-21T20:59:00Z;nan
+ElevenLabs;YouTube;subscriber_count;101000;Dec 2025 live plushcap+1​
+ElevenLabs;YouTube;video_count;227;Current total plushcap​
+ElevenLabs;YouTube;videos_per_week;~1.2;#ERROR!
+ElevenLabs;YouTube;avg_views_per_video;~206,700;46.9M total views ÷ 227 plushcap​
+ElevenLabs;YouTube;latest_video_date;2025-11-01 00:00:00;"""Introducing ElevenLabs Iconic Marketplace"" (1:28, 21K views) youtube​"
+ElevenLabs;YouTube;latest_video_title;Introducing ElevenLabs Iconic Marketplace;youtube​
+ElevenLabs;YouTube;top_videos;"High-view monthly uploads; 46.9M Dec cumulative plushcap​";nan
+ElevenLabs;LinkedIn;company_name;ElevenLabs;nan
+ElevenLabs;LinkedIn;collection_date;2025-12-21 00:00:00;nan
+ElevenLabs;LinkedIn;timestamp;2025-12-21T20:59:00Z;nan
+ElevenLabs;LinkedIn;follower_count;203K;Requires API clay​
+ElevenLabs;LinkedIn;employee_count;~200;Estimated from growth reports library​
+ElevenLabs;LinkedIn;posts_per_week;~1;Active on funding/tech updates
+ElevenLabs;LinkedIn;total_engagement_7days;nan;No public data
+ElevenLabs;LinkedIn;avg_engagement_per_post;nan;No public data
+ElevenLabs;LinkedIn;engagement_rate;nan;No public data
+ElevenLabs;LinkedIn;latest_post_date;2025-12-01 00:00:00;Affiliate/monetization blogs elevenlabs​
+ElevenLabs;LinkedIn;top_posts;YouTube monetization, AI voice strategies elevenlabs​;nan
+ElevenLabs;News;company_name;ElevenLabs;nan
+ElevenLabs;News;collection_date;2025-12-21 00:00:00;nan
+ElevenLabs;News;timestamp;2025-12-21T20:59:00Z;nan
+ElevenLabs;News;mention_count_7days;0;Dec 14-21 scan
+ElevenLabs;News;unique_sources;0 (last 7d);nan
+ElevenLabs;News;latest_mention_date;2025-12-17 00:00:00;"""Greg Preece on YouTube Monetization"" elevenlabs​"
+ElevenLabs;News;latest_mention_title;Greg Preece on YouTube monetisation with ElevenLabs;elevenlabs​
+ElevenLabs;News;latest_mention_source;ElevenLabs Blog;elevenlabs​
+ElevenLabs;News;top_articles;YouTube affiliate success, faceless channels elevenlabs+1​;nan
+ElevenLabs;Funding;company_name;ElevenLabs;nan
+ElevenLabs;Funding;collection_date;2025-12-21 00:00:00;nan
+ElevenLabs;Funding;timestamp;2025-12-21T20:59:00Z;nan
+ElevenLabs;Funding;total_funding_usd;$280M+;Multiple a16z rounds library​
+ElevenLabs;Funding;last_funding_type;Series C;~$100M+ [context from a16z portfolio]
+ElevenLabs;Funding;last_funding_date;2025-01-01 00:00:00;Latest known
+ElevenLabs;Funding;funding_rounds;5+;Seed to C library​
+ElevenLabs;Funding;employee_count;~200;Growth estimate
+ElevenLabs;Metric;Value;Source/Period;nan
+ElevenLabs;Total YouTube Views;46.9M;Dec 2025 monthly plushcap​;nan
+ElevenLabs;Monthly Growth;#ERROR!;Nov-Dec plushcap​;nan
+ElevenLabs;Affiliate Impact;22% commission;Recurring from YouTube referrals elevenlabs​;nan
+Cluely AI;X/Twitter;Handle;@cluelyai;Viral interview hacks cluely​
+ElevenLabs;X/Twitter;Handle;@elevenlabsio;TTS demos, affiliates xbeast​
+OpenRouter;X/Twitter;Handle;@openrouter;Model benchmarks openrouter​
+Thinking Machines;X/Twitter;Handle;nan;Stealth mode thinkingmachines​
+Hippocratic AI;X/Twitter;Handle;@hippocratic_ai;Healthcare compliance techstartups​
+Hedra AI;X/Twitter;Handle;@hedra_ai;Video generation virality techcrunch​
+Cursor;X/Twitter;Handle;@cursor_ai;Dev productivity youtube​
+EarnBetter;X/Twitter;Handle;@earnbetterhq;Resume/job Reels crosspost
+Ambience;X/Twitter;Handle;@AmbienceAI;Healthcare AI
+Applied Intuition;X/Twitter;Handle;@AppliedInt;Mountain View, CA
+Cluely AI;X/Twitter;Followers;23.4K;Viral interview hacks cluely​
+ElevenLabs;X/Twitter;Followers;187K;TTS demos, affiliates xbeast​
+OpenRouter;X/Twitter;Followers;42K;Model benchmarks openrouter​
+Thinking Machines;X/Twitter;Followers;0;Stealth mode thinkingmachines​
+Hippocratic AI;X/Twitter;Followers;18.7K;Healthcare compliance techstartups​
+Hedra AI;X/Twitter;Followers;89K;Video generation virality techcrunch​
+Cursor;X/Twitter;Followers;156K;Dev productivity youtube​
+EarnBetter;X/Twitter;Followers;34K;Resume/job Reels crosspost
+Ambience;X/Twitter;Followers;nan;nan
+Applied Intuition;X/Twitter;Followers;3577;Mountain View, CA
+Cluely AI;X/Twitter;Posts/Week;~8;Viral interview hacks cluely​
+ElevenLabs;X/Twitter;Posts/Week;~6;TTS demos, affiliates xbeast​
+OpenRouter;X/Twitter;Posts/Week;~3;Model benchmarks openrouter​
+Thinking Machines;X/Twitter;Posts/Week;0;Stealth mode thinkingmachines​
+Hippocratic AI;X/Twitter;Posts/Week;~2;Healthcare compliance techstartups​
+Hedra AI;X/Twitter;Posts/Week;~7;Video generation virality techcrunch​
+Cursor;X/Twitter;Posts/Week;~5;Dev productivity youtube​
+EarnBetter;X/Twitter;Posts/Week;~9;Resume/job Reels crosspost
+Ambience;X/Twitter;Posts/Week;nan;nan
+Applied Intuition;X/Twitter;Posts/Week;~4;2.5% ER
+Cluely AI;X/Twitter;Engagement Rate;0.038;Viral interview hacks cluely​
+ElevenLabs;X/Twitter;Engagement Rate;0.022;TTS demos, affiliates xbeast​
+OpenRouter;X/Twitter;Engagement Rate;0.019;Model benchmarks openrouter​
+Thinking Machines;X/Twitter;Engagement Rate;nan;Stealth mode thinkingmachines​
+Hippocratic AI;X/Twitter;Engagement Rate;0.015;Healthcare compliance techstartups​
+Hedra AI;X/Twitter;Engagement Rate;0.041;Video generation virality techcrunch​
+Cursor;X/Twitter;Engagement Rate;0.032;Dev productivity youtube​
+EarnBetter;X/Twitter;Engagement Rate;0.027;Resume/job Reels crosspost
+Ambience;X/Twitter;Engagement Rate;nan;nan
+Applied Intuition;X/Twitter;Engagement Rate;0.025;2.5% estimated
+Cluely AI;X/Twitter;Latest Post Date;"Dec 24: ""Interview cheat code""";Viral interview hacks cluely​
+ElevenLabs;X/Twitter;Latest Post Date;Dec 23: Voice marketplace;TTS demos, affiliates xbeast​
+OpenRouter;X/Twitter;Latest Post Date;Dec 22: Token stats 136T;Model benchmarks openrouter​
+Thinking Machines;X/Twitter;Latest Post Date;nan;Stealth mode thinkingmachines​
+Hippocratic AI;X/Twitter;Latest Post Date;Nov 15: Agent safety;Healthcare compliance techstartups​
+Hedra AI;X/Twitter;Latest Post Date;May 25: Character-3;Video generation virality techcrunch​
+Cursor;X/Twitter;Latest Post Date;Dec 20: Composer update;Dev productivity youtube​
+EarnBetter;X/Twitter;Latest Post Date;Dec 24: Job AI tips;Resume/job Reels crosspost
+Ambience;X/Twitter;Latest Post Date;nan;nan
+Applied Intuition;X/Twitter;Latest Post Date;Dec 18: $600M Series F;Funding announcement
+Cluely AI;Instagram;IG Handle;@cluelyai;Viral clips videotoolkit​
+ElevenLabs;Instagram;IG Handle;@elevenlabsio;YouTube affiliate elevenlabs​
+OpenRouter;Instagram;IG Handle;@openrouterai;Technical openrouter​
+Thinking Machines;Instagram;IG Handle;nan;Pre-launch stealth thinkingmachines​
+Hippocratic AI;Instagram;IG Handle;@hippocraticai;B2B healthcare techstartups​
+Hedra AI;Instagram;IG Handle;@hedra_ai;Viral video demos techcrunch​
+Cursor;Instagram;IG Handle;@cursor_ai;Dev tutorials youtube​
+EarnBetter;Instagram;IG Handle;@earnbetterhq;Job Reels youtube​
+Cluely AI;Instagram;Followers;~15K;Viral clips videotoolkit​
+ElevenLabs;Instagram;Followers;142K;YouTube affiliate elevenlabs​
+OpenRouter;Instagram;Followers;~8.2K;Technical openrouter​
+Thinking Machines;Instagram;Followers;0;Pre-launch stealth thinkingmachines​
+Hippocratic AI;Instagram;Followers;~22K;B2B healthcare techstartups​
+Hedra AI;Instagram;Followers;~67K;Viral video demos techcrunch​
+Cursor;Instagram;Followers;~31K;Dev tutorials youtube​
+EarnBetter;Instagram;Followers;~28K;Job Reels youtube​
+Cluely AI;Instagram;Posts/Week;~3;Viral clips videotoolkit​
+ElevenLabs;Instagram;Posts/Week;~4;YouTube affiliate elevenlabs​
+OpenRouter;Instagram;Posts/Week;~1;Technical openrouter​
+Thinking Machines;Instagram;Posts/Week;0;Pre-launch stealth thinkingmachines​
+Hippocratic AI;Instagram;Posts/Week;~2;B2B healthcare techstartups​
+Hedra AI;Instagram;Posts/Week;~6;Viral video demos techcrunch​
+Cursor;Instagram;Posts/Week;~2;Dev tutorials youtube​
+EarnBetter;Instagram;Posts/Week;~5;Job Reels youtube​
+Cluely AI;Instagram;Engagement Rate;0.021;Viral clips videotoolkit​
+ElevenLabs;Instagram;Engagement Rate;0.018;YouTube affiliate elevenlabs​
+OpenRouter;Instagram;Engagement Rate;0.012;Technical openrouter​
+Thinking Machines;Instagram;Engagement Rate;nan;Pre-launch stealth thinkingmachines​
+Hippocratic AI;Instagram;Engagement Rate;0.014;B2B healthcare techstartups​
+Hedra AI;Instagram;Engagement Rate;0.032;Viral video demos techcrunch​
+Cursor;Instagram;Engagement Rate;0.024;Dev tutorials youtube​
+EarnBetter;Instagram;Engagement Rate;0.016;Job Reels youtube​
+Cluely AI;Instagram;Latest Post;"Dec 18: ""Interview AI""";Viral clips videotoolkit​
+ElevenLabs;Instagram;Latest Post;Dec 17: Voice demo;YouTube affiliate elevenlabs​
+OpenRouter;Instagram;Latest Post;Dec 15: Model stats;Technical openrouter​
+Thinking Machines;Instagram;Latest Post;nan;Pre-launch stealth thinkingmachines​
+Hippocratic AI;Instagram;Latest Post;Nov 10: Agent store;B2B healthcare techstartups​
+Hedra AI;Instagram;Latest Post;May 20: Character-3;Viral video demos techcrunch​
+Cursor;Instagram;Latest Post;Dec 10: Composer;Dev tutorials youtube​
+EarnBetter;Instagram;Latest Post;Dec 20: Resume AI;Job Reels youtube​
