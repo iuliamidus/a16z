@@ -19,6 +19,11 @@ export default function FilterBar({ currentView }) {
   ];
 
   const handleCompanyToggle = (companyName) => {
+    // For founder view, prevent any filtering
+    if (currentView === 'founder') {
+      return;
+    }
+    
     // For snapshot view, only allow single selection
     if (currentView === 'snapshot') {
       setSelectedCompanies([companyName]);
@@ -46,7 +51,9 @@ export default function FilterBar({ currentView }) {
         <div className="filter-options">
           <button 
             className={selectedCompanies.length === 0 ? 'active' : ''}
-            onClick={() => setSelectedCompanies([])}
+            onClick={() => currentView !== 'founder' && setSelectedCompanies([])}
+            disabled={currentView === 'founder'}
+            style={{ opacity: currentView === 'founder' ? 0.5 : 1, cursor: currentView === 'founder' ? 'not-allowed' : 'pointer' }}
           >
             All Companies
           </button>
@@ -55,6 +62,8 @@ export default function FilterBar({ currentView }) {
               key={company.name}
               className={selectedCompanies.includes(company.name) ? 'active' : ''}
               onClick={() => handleCompanyToggle(company.name)}
+              disabled={currentView === 'founder'}
+              style={{ opacity: currentView === 'founder' ? 0.5 : 1, cursor: currentView === 'founder' ? 'not-allowed' : 'pointer' }}
             >
               {company.name}
             </button>

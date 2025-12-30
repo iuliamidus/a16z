@@ -7,6 +7,7 @@ import CompanySnapshot from './components/views/CompanySnapshot'
 import ComparisonView from './components/views/ComparisonView'
 import CorrelationAnalysis from './components/views/CorrelationAnalysis'
 import FounderVisibility from './components/views/FounderVisibility'
+import CursorCaseStudy from './components/cursor/CursorCaseStudy'
 
 function App() {
   const { 
@@ -18,6 +19,11 @@ function App() {
   } = useStore();
   
   const [currentView, setCurrentView] = useState('snapshot');
+  const [showCaseStudy, setShowCaseStudy] = useState(() => {
+    // Check if user has viewed case study before
+    const hasViewed = localStorage.getItem('cursor-case-study-viewed');
+    return !hasViewed;
+  });
 
   useEffect(() => {
     loadData().then(data => {
@@ -26,6 +32,17 @@ function App() {
       console.error('Error loading data:', error);
     });
   }, [setCompanies]);
+
+  const handleExploreDashboard = () => {
+    localStorage.setItem('cursor-case-study-viewed', 'true');
+    setShowCaseStudy(false);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
+  const handleToggleView = () => {
+    setShowCaseStudy(!showCaseStudy);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
 
   if (loading) {
     return (
@@ -48,8 +65,31 @@ function App() {
                          selectedCompanies.length === 1 ? companies.find(c => c.name === selectedCompanies[0]) :
                          companies[0];
 
+  if (showCaseStudy) {
+    return (
+      <>
+        <button className="view-toggle" onClick={handleToggleView}>
+          View All Companies
+        </button>
+        <CursorCaseStudy onExplore={handleExploreDashboard} />
+      </>
+    );
+  }
+
   return (
     <div className="app">
+      <button className="view-toggle" onClick={handleToggleView}>
+        View Cursor Story
+      </button>
+      
+      <div className="cursor-banner" onClick={handleToggleView}>
+        <div className="banner-content">
+          <div className="banner-badge">🏆 New Media Done Right</div>
+          <h3 className="banner-title">How Cursor Built a $29.3B Company with $0 Marketing</h3>
+          <p className="banner-subtitle">Explore the full story →</p>
+        </div>
+      </div>
+      
       <header className="app-header">
         <h1>a16z Portfolio Media Analytics</h1>
         <p className="subtitle">Prototype analyzing a range of a16z companies, at different stages and in different industries, to notice similarities, which ones are doing better and if that is related to earnings. Also looking at news or virality.</p>

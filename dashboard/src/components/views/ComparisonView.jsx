@@ -1,4 +1,4 @@
-import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, RadarChart, PolarGrid, PolarAngleAxis, PolarRadiusAxis, Radar } from 'recharts';
+import { BarChart, Bar, LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, RadarChart, PolarGrid, PolarAngleAxis, PolarRadiusAxis, Radar } from 'recharts';
 import { parseNumericValue } from '../../services/dataService';
 
 export default function ComparisonView({ companies }) {
@@ -83,20 +83,26 @@ export default function ComparisonView({ companies }) {
         <h3>📊 Follower Count Comparison</h3>
         <ResponsiveContainer width="100%" height={500}>
           <BarChart data={followerData} margin={{ top: 20, right: 30, bottom: 120, left: 60 }}>
-            <CartesianGrid strokeDasharray="3 3" />
+            <CartesianGrid strokeDasharray="3 3" stroke="rgba(214, 162, 86, 0.2)" />
             <XAxis 
               dataKey="name" 
               angle={-45}
               textAnchor="end"
               height={100}
               interval={0}
+              tick={{ fill: '#d6a256', fontSize: 13 }}
             />
-            <YAxis label={{ value: 'Followers', angle: -90, position: 'insideLeft' }} />
-            <Tooltip formatter={(value) => value.toLocaleString()} />
-            <Legend wrapperStyle={{ paddingTop: '10px' }} />
-            <Bar dataKey="YouTube" fill="#FF0000" />
-            <Bar dataKey="Twitter" fill="#1DA1F2" />
-            <Bar dataKey="Instagram" fill="#E4405F" />
+            <YAxis label={{ value: 'Followers', angle: -90, position: 'insideLeft', fill: '#d6a256' }} tick={{ fill: '#d6a256' }} />
+            <Tooltip 
+              formatter={(value) => value.toLocaleString()}
+              contentStyle={{ background: 'rgba(74, 3, 20, 0.95)', border: '1px solid #d6a256', borderRadius: '8px' }}
+              labelStyle={{ color: '#ed8c00', fontWeight: 'bold' }}
+              itemStyle={{ color: '#d6a256' }}
+            />
+            <Legend wrapperStyle={{ paddingTop: '10px' }} iconType="circle" />
+            <Bar dataKey="YouTube" fill="#FF0000" radius={[8, 8, 0, 0]} />
+            <Bar dataKey="Twitter" fill="#1DA1F2" radius={[8, 8, 0, 0]} />
+            <Bar dataKey="Instagram" fill="#E4405F" radius={[8, 8, 0, 0]} />
           </BarChart>
         </ResponsiveContainer>
       </section>
@@ -105,22 +111,38 @@ export default function ComparisonView({ companies }) {
       <section className="chart-section">
         <h3>💬 Engagement Rate Comparison (%)</h3>
         <ResponsiveContainer width="100%" height={500}>
-          <BarChart data={engagementData} margin={{ top: 20, right: 30, bottom: 120, left: 60 }}>
-            <CartesianGrid strokeDasharray="3 3" />
+          <LineChart data={engagementData} margin={{ top: 20, right: 30, bottom: 120, left: 60 }}>
+            <defs>
+              <linearGradient id="colorTwitter" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="5%" stopColor="#1DA1F2" stopOpacity={0.3}/>
+                <stop offset="95%" stopColor="#1DA1F2" stopOpacity={0}/>
+              </linearGradient>
+              <linearGradient id="colorInstagram" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="5%" stopColor="#E4405F" stopOpacity={0.3}/>
+                <stop offset="95%" stopColor="#E4405F" stopOpacity={0}/>
+              </linearGradient>
+            </defs>
+            <CartesianGrid strokeDasharray="3 3" stroke="rgba(214, 162, 86, 0.2)" />
             <XAxis 
               dataKey="name" 
               angle={-45}
               textAnchor="end"
               height={100}
               interval={0}
+              tick={{ fill: '#d6a256', fontSize: 13 }}
             />
-            <YAxis label={{ value: 'Engagement Rate (%)', angle: -90, position: 'insideLeft' }} />
-            <Tooltip formatter={(value) => `${value.toFixed(2)}%`} />
-            <Legend wrapperStyle={{ paddingTop: '10px' }} />
-            <Bar dataKey="Twitter" fill="#1DA1F2" />
-            <Bar dataKey="Instagram" fill="#E4405F" />
-            <Bar dataKey="Avg" fill="#8884d8" />
-          </BarChart>
+            <YAxis label={{ value: 'Engagement Rate (%)', angle: -90, position: 'insideLeft', fill: '#d6a256' }} tick={{ fill: '#d6a256' }} />
+            <Tooltip 
+              formatter={(value) => `${value.toFixed(2)}%`}
+              contentStyle={{ background: 'rgba(74, 3, 20, 0.95)', border: '1px solid #d6a256', borderRadius: '8px' }}
+              labelStyle={{ color: '#ed8c00', fontWeight: 'bold' }}
+              itemStyle={{ color: '#d6a256' }}
+            />
+            <Legend wrapperStyle={{ paddingTop: '10px' }} iconType="circle" />
+            <Line type="monotone" dataKey="Twitter" stroke="#1DA1F2" strokeWidth={4} dot={{ fill: '#1DA1F2', r: 7, strokeWidth: 2, stroke: '#fff' }} activeDot={{ r: 9 }} />
+            <Line type="monotone" dataKey="Instagram" stroke="#E4405F" strokeWidth={4} dot={{ fill: '#E4405F', r: 7, strokeWidth: 2, stroke: '#fff' }} activeDot={{ r: 9 }} />
+            <Line type="monotone" dataKey="Avg" stroke="#d6a256" strokeWidth={4} strokeDasharray="5 5" dot={{ fill: '#d6a256', r: 7, strokeWidth: 2, stroke: '#fff' }} activeDot={{ r: 9 }} />
+          </LineChart>
         </ResponsiveContainer>
       </section>
 
@@ -129,21 +151,26 @@ export default function ComparisonView({ companies }) {
         <h3>📝 Posts Per Week Comparison</h3>
         <ResponsiveContainer width="100%" height={500}>
           <BarChart data={contentData} margin={{ top: 20, right: 30, bottom: 120, left: 60 }}>
-            <CartesianGrid strokeDasharray="3 3" />
+            <CartesianGrid strokeDasharray="3 3" stroke="rgba(214, 162, 86, 0.2)" />
             <XAxis 
               dataKey="name" 
               angle={-45}
               textAnchor="end"
               height={100}
               interval={0}
+              tick={{ fill: '#d6a256', fontSize: 13 }}
             />
-            <YAxis label={{ value: 'Posts Per Week', angle: -90, position: 'insideLeft' }} />
-            <Tooltip />
-            <Legend wrapperStyle={{ paddingTop: '10px' }} />
-            <Bar dataKey="YouTube" fill="#FF0000" />
-            <Bar dataKey="Twitter" fill="#1DA1F2" />
-            <Bar dataKey="Instagram" fill="#E4405F" />
-            <Bar dataKey="LinkedIn" fill="#0077B5" />
+            <YAxis label={{ value: 'Posts Per Week', angle: -90, position: 'insideLeft', fill: '#d6a256' }} tick={{ fill: '#d6a256' }} />
+            <Tooltip 
+              contentStyle={{ background: 'rgba(74, 3, 20, 0.95)', border: '1px solid #d6a256', borderRadius: '8px' }}
+              labelStyle={{ color: '#ed8c00', fontWeight: 'bold' }}
+              itemStyle={{ color: '#d6a256' }}
+            />
+            <Legend wrapperStyle={{ paddingTop: '10px' }} iconType="square" />
+            <Bar dataKey="YouTube" stackId="a" fill="#FF0000" radius={[0, 0, 0, 0]} />
+            <Bar dataKey="Twitter" stackId="a" fill="#1DA1F2" radius={[0, 0, 0, 0]} />
+            <Bar dataKey="Instagram" stackId="a" fill="#E4405F" radius={[0, 0, 0, 0]} />
+            <Bar dataKey="LinkedIn" stackId="a" fill="#0A66C2" radius={[8, 8, 0, 0]} />
           </BarChart>
         </ResponsiveContainer>
       </section>
