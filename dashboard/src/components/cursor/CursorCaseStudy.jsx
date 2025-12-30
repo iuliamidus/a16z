@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import CursorHero from './CursorHero';
 import CursorTimeline from './CursorTimeline';
@@ -10,6 +10,22 @@ import CursorOpportunities from './CursorOpportunities';
 
 export default function CursorCaseStudy({ onExplore }) {
   const [isExpanded, setIsExpanded] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (!isExpanded) {
+        const scrollPosition = window.scrollY;
+        const heroHeight = window.innerHeight * 0.9;
+        
+        if (scrollPosition > heroHeight) {
+          setIsExpanded(true);
+        }
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, [isExpanded]);
 
   return (
     <div className="cursor-case-study">
