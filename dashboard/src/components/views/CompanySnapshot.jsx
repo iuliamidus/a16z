@@ -56,7 +56,7 @@ export default function CompanySnapshot({ company }) {
           />
           <KPICard
             icon="𝕏"
-            title="X/Twitter"
+            title="X"
             value={getFollowerCount('twitter')}
             subtitle={`${getPostsPerWeek('twitter') || 0} posts/week`}
           />
@@ -169,8 +169,8 @@ export default function CompanySnapshot({ company }) {
             </div>
           )}
           {company.twitter?.top_posts && (
-            <div className="content-item">
-              <h4>X/Twitter</h4>
+            <div className="highlight-item">
+              <h4>X</h4>
               <p>{company.twitter.top_posts}</p>
             </div>
           )}

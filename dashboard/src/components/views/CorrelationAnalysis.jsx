@@ -145,12 +145,12 @@ const CorrelationAnalysis = ({ companies }) => {
       .filter(c => c.totalFollowers > 0)
       .map(c => ({
         name: c.name,
-        Twitter: c.twitterFollowers,
+        X: c.twitterFollowers,
         Instagram: c.instagramFollowers,
         YouTube: c.youtubeFollowers,
         LinkedIn: c.linkedinFollowers
       }))
-      .sort((a, b) => (b.Twitter + b.Instagram + b.YouTube + b.LinkedIn) - (a.Twitter + a.Instagram + a.YouTube + a.LinkedIn));
+      .sort((a, b) => (b.X + b.Instagram + b.YouTube + b.LinkedIn) - (a.X + a.Instagram + a.YouTube + a.LinkedIn));
   }, [companyAnalysis]);
 
   // Funding timeline
@@ -379,7 +379,7 @@ const CorrelationAnalysis = ({ companies }) => {
               />
               <Tooltip />
               <Legend />
-              <Bar dataKey="Twitter" stackId="a" fill="#1DA1F2" />
+              <Bar dataKey="X" stackId="a" fill="#1DA1F2" />
               <Bar dataKey="Instagram" stackId="a" fill="#E4405F" />
               <Bar dataKey="YouTube" stackId="a" fill="#FF0000" />
               <Bar dataKey="LinkedIn" stackId="a" fill="#0A66C2" />

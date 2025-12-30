@@ -16,7 +16,7 @@ export default function ComparisonView({ companies }) {
   const followerData = companies.map(company => ({
     name: formatCompanyName(company.name),
     YouTube: parseNumericValue(company.youtube?.subscriber_count) || 0,
-    Twitter: parseNumericValue(company.twitter?.follower_count || company.twitter?.Followers) || 0,
+    X: parseNumericValue(company.twitter?.follower_count || company.twitter?.Followers) || 0,
     Instagram: parseNumericValue(company.instagram?.follower_count || company.instagram?.Followers) || 0,
     Total: company.derived?.totalFollowers || 0
   }));
@@ -38,7 +38,7 @@ export default function ComparisonView({ companies }) {
   const contentData = companies.map(company => ({
     name: formatCompanyName(company.name),
     YouTube: parseNumericValue(company.youtube?.videos_per_week) || 0,
-    Twitter: parseNumericValue(company.twitter?.posts_per_week || company.twitter?.['Posts/Week']) || 0,
+    X: parseNumericValue(company.twitter?.posts_per_week || company.twitter?.['Posts/Week']) || 0,
     Instagram: parseNumericValue(company.instagram?.posts_per_week || company.instagram?.['Posts/Week']) || 0,
     LinkedIn: parseNumericValue(company.linkedin?.posts_per_week) || 0
   }));
@@ -101,7 +101,7 @@ export default function ComparisonView({ companies }) {
             />
             <Legend wrapperStyle={{ paddingTop: '10px' }} iconType="circle" />
             <Bar dataKey="YouTube" fill="#FF0000" radius={[8, 8, 0, 0]} />
-            <Bar dataKey="Twitter" fill="#1DA1F2" radius={[8, 8, 0, 0]} />
+            <Bar dataKey="X" fill="#1DA1F2" radius={[8, 8, 0, 0]} />
             <Bar dataKey="Instagram" fill="#E4405F" radius={[8, 8, 0, 0]} />
           </BarChart>
         </ResponsiveContainer>
@@ -139,7 +139,7 @@ export default function ComparisonView({ companies }) {
               itemStyle={{ color: '#d6a256' }}
             />
             <Legend wrapperStyle={{ paddingTop: '10px' }} iconType="circle" />
-            <Line type="monotone" dataKey="Twitter" stroke="#1DA1F2" strokeWidth={4} dot={{ fill: '#1DA1F2', r: 7, strokeWidth: 2, stroke: '#fff' }} activeDot={{ r: 9 }} />
+            <Line type="monotone" dataKey="X" stroke="#1DA1F2" strokeWidth={4} dot={{ fill: '#1DA1F2', r: 7, strokeWidth: 2, stroke: '#fff' }} activeDot={{ r: 9 }} />
             <Line type="monotone" dataKey="Instagram" stroke="#E4405F" strokeWidth={4} dot={{ fill: '#E4405F', r: 7, strokeWidth: 2, stroke: '#fff' }} activeDot={{ r: 9 }} />
             <Line type="monotone" dataKey="Avg" stroke="#d6a256" strokeWidth={4} strokeDasharray="5 5" dot={{ fill: '#d6a256', r: 7, strokeWidth: 2, stroke: '#fff' }} activeDot={{ r: 9 }} />
           </LineChart>
@@ -168,7 +168,7 @@ export default function ComparisonView({ companies }) {
             />
             <Legend wrapperStyle={{ paddingTop: '10px' }} iconType="square" />
             <Bar dataKey="YouTube" stackId="a" fill="#FF0000" radius={[0, 0, 0, 0]} />
-            <Bar dataKey="Twitter" stackId="a" fill="#1DA1F2" radius={[0, 0, 0, 0]} />
+            <Bar dataKey="X" stackId="a" fill="#1DA1F2" radius={[0, 0, 0, 0]} />
             <Bar dataKey="Instagram" stackId="a" fill="#E4405F" radius={[0, 0, 0, 0]} />
             <Bar dataKey="LinkedIn" stackId="a" fill="#0A66C2" radius={[8, 8, 0, 0]} />
           </BarChart>

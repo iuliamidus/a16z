@@ -124,7 +124,7 @@ const FounderVisibility = () => {
               </div>
               <div className="founder-stats">
                 <div className="stat-item">
-                  <span className="stat-label">Twitter</span>
+                  <span className="stat-label">X</span>
                   <span className="stat-value">{founder.twitterFollowers.toLocaleString()}</span>
                 </div>
                 <div className="stat-item">

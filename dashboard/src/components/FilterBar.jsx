@@ -13,7 +13,7 @@ export default function FilterBar({ currentView }) {
 
   const platforms = [
     { id: 'youtube', name: 'YouTube', icon: '▶️' },
-    { id: 'twitter', name: 'X/Twitter', icon: '𝕏' },
+    { id: 'twitter', name: 'X', icon: '𝕏' },
     { id: 'instagram', name: 'Instagram', icon: '📷' },
     { id: 'linkedin', name: 'LinkedIn', icon: '💼' }
   ];

@@ -1,6 +1,6 @@
 export const cursorData = {
   hero: {
-    title: "How a 25-Year-Old CEO Built a $29.3B Company",
+    title: "Cursor as an Example of New Media Done Right",
     subtitle: "",
     stats: [
       {
