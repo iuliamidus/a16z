@@ -1185,13 +1185,17 @@
   color: rgba(255, 255, 255, 0.8);
   text-align: center;
   margin: 0 auto 3rem;
-  max-width: 1200px;
+  max-width: 1400px;
   line-height: 1.7;
   font-weight: 400;
 }
 
 .hero-intro p {
-  margin: 0;
+  margin: 0 0 1.5rem 0;
+}
+
+.hero-intro p:last-child {
+  margin-bottom: 0;
 }
 
 .hero-stats {
@@ -1763,8 +1767,8 @@
   background: rgba(0, 0, 0, 0.5);
   border: 2px solid var(--border-subtle);
   border-radius: 16px;
-  padding: 2.5rem;
-  margin-bottom: 1.5rem;
+  padding: 1.75rem;
+  margin-bottom: 1rem;
   transition: all 0.3s ease;
   backdrop-filter: blur(10px);
 }
@@ -1776,28 +1780,28 @@
 }
 
 .playbook-number {
-  font-size: 3rem;
-  margin-bottom: 1rem;
+  font-size: 2.5rem;
+  margin-bottom: 0.75rem;
 }
 
 .playbook-title {
   color: #fff;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   font-weight: 700;
-  margin: 0 0 0.5rem;
+  margin: 0 0 0.4rem;
 }
 
 .playbook-description {
   color: var(--text-secondary);
-  font-size: 1rem;
+  font-size: 0.95rem;
   margin: 0;
 }
 
 .playbook-arrow {
   text-align: center;
   color: var(--accent-gold);
-  font-size: 2rem;
-  margin: 1rem 0;
+  font-size: 1.5rem;
+  margin: 0.5rem 0;
 }
 
 .playbook-result {
@@ -1867,6 +1871,140 @@
   box-shadow: 0 6px 20px rgba(212, 175, 55, 0.4);
 }
 
+/* Opportunities Section */
+.opportunities-section {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.opportunities-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.opportunity-card {
+  background: rgba(0, 0, 0, 0.5);
+  border: 2px solid;
+  border-radius: 16px;
+  padding: 2.5rem;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+}
+
+.opportunity-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.4);
+}
+
+.opportunity-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.opportunity-number {
+  font-size: 2.5rem;
+}
+
+.opportunity-gap {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 0.5rem 1rem;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 50px;
+}
+
+.opportunity-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #fff;
+  margin: 0 0 1rem;
+}
+
+.opportunity-description {
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.opportunity-impact {
+  background: rgba(212, 175, 55, 0.1);
+  border-left: 3px solid var(--accent-gold);
+  padding: 0.75rem 1rem;
+  margin: 1rem 0;
+  border-radius: 4px;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 0.95rem;
+}
+
+.opportunity-impact strong {
+  color: var(--accent-gold);
+}
+
+.opportunity-action {
+  background: rgba(0, 0, 0, 0.4);
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.opportunity-action strong {
+  color: #fff;
+}
+
+.opportunities-summary {
+  background: linear-gradient(135deg, rgba(212, 175, 55, 0.15) 0%, rgba(0, 0, 0, 0.5) 100%);
+  border: 2px solid rgba(212, 175, 55, 0.4);
+  border-radius: 16px;
+  padding: 3rem;
+  text-align: center;
+  margin-top: 3rem;
+  backdrop-filter: blur(10px);
+}
+
+.opportunities-summary h3 {
+  font-size: 1.8rem;
+  color: var(--accent-gold);
+  margin: 0 0 1rem;
+}
+
+.summary-stat {
+  font-size: 3rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, #f4df97 0%, #d4af37 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin: 0.5rem 0;
+}
+
+.summary-text {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin: 1.5rem 0;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.summary-impact {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1.2rem;
+  margin-top: 1.5rem;
+}
+
+.summary-impact strong {
+  color: var(--accent-gold);
+  font-size: 1.4rem;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   .hero-stats {
@@ -1874,6 +2012,10 @@
   }
   
   .comparison-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .opportunities-grid {
     grid-template-columns: 1fr;
   }
   
@@ -1895,6 +2037,14 @@
   
   .cursor-section {
     padding: 3rem 1rem;
+  }
+
+  .opportunities-summary {
+    padding: 2rem 1.5rem;
+  }
+
+  .summary-stat {
+    font-size: 2rem;
   }
 }
 

@@ -1,0 +1,6 @@
+# Data files - not tracked in Git but used locally by dashboard
+*.csv
+*.md
+
+# OS files
+.DS_Store

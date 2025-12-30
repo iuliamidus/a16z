@@ -55,7 +55,13 @@ export default function CursorHero({ onExpand, isExpanded }) {
         className="hero-intro"
       >
         <p>
-          As an AI engineer in my 20s, obsessed with social media, there is nothing I love more than hearing what fellow developers have to say about new products. Therefore, my media channels tend to be filled with all the latest tech trends and vetted products, so it is needless to say Cursor has been up there ever since the beginning. Therefore, I followed their progress more in depth for this, with some data collection, as I was aware they were an edge case and wanted to see their playbook. I also did analysis for a select few other companies from a16z, at different funding stages and in different industries, to uncover possible insights.
+          Hi to whoever is reading this from a16z! I am an AI engineer, obsessed with media and with data, so I took this question as a challenge: I wanted to see if there really are aspects of new media that can quantitatively show companies performing better. I selected a few companies, at different stages of growth and in different industries, and tried to gain insights from social media data I could get. These included details like founder presence, engagement rate, and looking at funding as well, or industry relevance.
+        </p>
+        <p>
+          I ended up responding to this particular question about Cursor - as I was aware they are notoriously not spending on social media or marketing, I thought to use data to highlight what they are doing amazingly well, as well as some growth opportunities I thought of while analyzing the rest of the companies.
+        </p>
+        <p>
+          To me, new media is all about being human and feeling authentic in a world where media priorities are dictated by outside forces, so most of the things I would do to improve that focus on centering people. Please have a skim through the below, and the dashboard with all the companies can also be found here.
         </p>
       </motion.div>
 

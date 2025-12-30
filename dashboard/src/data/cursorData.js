@@ -72,7 +72,7 @@ export const cursorData = {
       duration: "2hr 38min",
       reach: "4M+ subscribers",
       episode: "#432",
-      url: "https://lexfridman.com",
+      url: "https://lexfridman.com/cursor-team",
       quote: "We wanted to build the coding editor that doesn't get in your way.",
       impact: "Viral in dev community"
     },
@@ -94,7 +94,7 @@ export const cursorData = {
       duration: "55min",
       reach: "Premium tech audience",
       episode: "Special",
-      url: "https://stratechery.com",
+      url: "https://stratechery.com/2025/an-interview-with-cursor-co-founder-and-ceo-michael-truell-about-coding-with-ai/",
       quote: "Cursor represents a new category of developer tools.",
       impact: "Tech elite endorsement"
     }
@@ -169,27 +169,93 @@ export const cursorData = {
     {
       number: "1️⃣",
       title: "Build Exceptional Product",
-      description: "Product excellence is non-negotiable"
+      description: "Product excellence is non-negotiable. Focus on developer experience first, marketing second."
     },
     {
       number: "2️⃣",
       title: "Founder Becomes Thought Leader",
-      description: "Not promoter, but public intellectual"
+      description: "Not promoter, but public intellectual. Michael Truell on Lex Fridman, Ben Thompson, Lenny's Podcast."
     },
     {
       number: "3️⃣",
       title: "Users Become Advocates",
-      description: "Community ownership, not customer base"
+      description: "Community ownership, not customer base. 41K organic mentions vs competitors' 8K."
     },
     {
       number: "4️⃣",
       title: "Product Goes Viral Organically",
-      description: "Word-of-mouth > advertising"
+      description: "Word-of-mouth > advertising. 87% of users are software engineers who recruited peers."
     },
     {
       number: "5️⃣",
       title: "Growth Becomes Inevitable",
-      description: "Network effects + product quality = moat"
+      description: "Network effects + product quality = moat. $1B ARR with $0 marketing spend."
+    }
+  ],
+
+  opportunities: [
+    {
+      number: "1️⃣",
+      title: "Short-Form Video & Visual Platforms",
+      gap: "CRITICAL GAP",
+      description: "Missing Instagram, TikTok, YouTube Shorts entirely. ElevenLabs has 25K Instagram followers creating daily content. Cursor has 0.",
+      impact: "Potential: +500M developer impressions/year",
+      action: "Launch Instagram with code transformations, 60-sec 'build with Cursor' reels, partner with coding YouTubers",
+      color: "#ff4444"
+    },
+    {
+      number: "2️⃣",
+      title: "Creator Ambassador Program",
+      gap: "HIGH IMPACT",
+      description: "No structured creator program. ElevenLabs has 10,000+ user tutorials organically. Cursor has ~500.",
+      impact: "Potential: 10x user-generated content",
+      action: "Identify 50 top advocates, give Pro accounts + early access, let them create organic tutorials",
+      color: "#ff8800"
+    },
+    {
+      number: "3️⃣",
+      title: "Professional Video Content",
+      gap: "HIGH IMPACT",
+      description: "Strong podcast presence but no owned video series. Hippocratic AI's founder creates weekly video updates reaching enterprise buyers.",
+      impact: "Potential: 5x reach beyond dev Twitter",
+      action: "Weekly 2-3 min 'Building the Future' series, cut Lex Fridman podcast into 100 shareable clips",
+      color: "#ff8800"
+    },
+    {
+      number: "4️⃣",
+      title: "Educational Platform (Cursor University)",
+      gap: "MEDIUM PRIORITY",
+      description: "Just documentation, no structured learning. ElevenLabs has 350K students on Udemy learning their tool.",
+      impact: "Potential: 2x free-to-paid conversion",
+      action: "Build 'Cursor University' with interactive tutorials, certifications, gamification inside app",
+      color: "#ffaa00"
+    },
+    {
+      number: "5️⃣",
+      title: "Enterprise B2B Content",
+      gap: "MEDIUM PRIORITY",
+      description: "Strong bottom-up adoption but weak top-down sales. No case studies, ROI calculators, or content for CTOs.",
+      impact: "Potential: +$50-100M ARR in enterprise contracts",
+      action: "Create enterprise landing page, whitepaper on 'Total Economic Impact', target engineering leadership",
+      color: "#ffaa00"
+    },
+    {
+      number: "6️⃣",
+      title: "Live Coding Streams",
+      gap: "BLUE OCEAN",
+      description: "Nobody doing this. ThePrimeagen has 600K followers on Twitch watching coding. Untapped dev/gaming crossover audience.",
+      impact: "Potential: 50-100K new users from live streaming",
+      action: "Michael Truell weekly 'Live Coding with Cursor' on Twitch/YouTube, answer community questions",
+      color: "#4444ff"
+    },
+    {
+      number: "7️⃣",
+      title: "'Built with Cursor' Showcase",
+      gap: "BLUE OCEAN",
+      description: "Users tweet 'Built this with Cursor' organically but no official amplification. Wasted social proof opportunity.",
+      impact: "Potential: +20% conversion via social proof",
+      action: "Launch builtwithcursor.com gallery, weekly project spotlights, user submissions = free content + SEO",
+      color: "#4444ff"
     }
   ]
 };

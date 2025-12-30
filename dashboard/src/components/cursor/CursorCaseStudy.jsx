@@ -6,6 +6,7 @@ import CursorComparison from './CursorComparison';
 import CursorPodcasts from './CursorPodcasts';
 import CursorSocialProof from './CursorSocialProof';
 import CursorPlaybook from './CursorPlaybook';
+import CursorOpportunities from './CursorOpportunities';
 
 export default function CursorCaseStudy({ onExplore }) {
   const [isExpanded, setIsExpanded] = useState(false);
@@ -23,10 +24,11 @@ export default function CursorCaseStudy({ onExplore }) {
             transition={{ duration: 0.5 }}
             className="cursor-expanded"
           >
+            <CursorPlaybook />
+            <CursorOpportunities />
             <CursorComparison />
             <CursorPodcasts />
             <CursorSocialProof />
-            <CursorPlaybook />
             <CursorTimeline />
             
             <motion.div
