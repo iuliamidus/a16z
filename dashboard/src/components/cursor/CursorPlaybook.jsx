@@ -43,16 +43,6 @@ export default function CursorPlaybook() {
           </motion.div>
         ))}
       </div>
-
-      <motion.div
-        initial={{ opacity: 0, scale: 0.95 }}
-        whileInView={{ opacity: 1, scale: 1 }}
-        viewport={{ once: true }}
-        transition={{ delay: 0.5, duration: 0.6 }}
-        className="playbook-result"
-      >
-        Result: $1B ARR, $0 Marketing
-      </motion.div>
     </motion.section>
   );
 }

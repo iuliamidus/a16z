@@ -55,10 +55,10 @@ export default function CursorHero({ onExpand, isExpanded }) {
         className="hero-intro"
       >
         <p>
-          Hi to whoever is reading this from a16z! I am an AI engineer, obsessed with media and with data, so I took this question as a challenge: I wanted to see if there really are aspects of new media that can quantitatively show companies performing better. I selected a few companies, at different stages of growth and in different industries, and tried to gain insights from social media data I could get. These included details like founder presence, engagement rate, and looking at funding as well, or industry relevance.
+          Hi to whoever is reading this from a16z! I am an AI engineer, obsessed with media and with data, so I took this question as a challenge: I wanted to see if there are aspects of new media that can quantitatively show companies performing better. I selected a few, at different stages of growth and in industries, and tried to gain insights from social media data I could get. These included details like founder presence, engagement rate, and looking at funding or industry relevance.
         </p>
         <p>
-          I ended up responding to this particular question about Cursor - as I was aware they are notoriously not spending on social media or marketing, I thought to use data to highlight what they are doing amazingly well, as well as some growth opportunities I thought of while analyzing the rest of the companies.
+          I ended up responding to this particular question about Cursor - I was aware they are notoriously not spending on marketing, I thought to use data to highlight what they are doing amazingly well, as well as some growth opportunities I thought of while analyzing the rest of the companies.
         </p>
         <p>
           To me, new media is all about being human and feeling authentic in a world where media priorities are dictated by outside forces, so most of the things I would do to improve that focus on centering people. Please have a skim through the below, and the dashboard with all the companies can also be found here.

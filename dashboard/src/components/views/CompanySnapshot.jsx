@@ -169,7 +169,7 @@ export default function CompanySnapshot({ company }) {
             </div>
           )}
           {company.twitter?.top_posts && (
-            <div className="highlight-item">
+            <div className="content-item">
               <h4>X</h4>
               <p>{company.twitter.top_posts}</p>
             </div>
